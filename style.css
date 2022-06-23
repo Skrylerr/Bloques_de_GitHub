@@ -1,0 +1,31 @@
+img {
+    height: 200px;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+}
+.container {
+    font-family: sans-serif;
+    display: inline-block;
+    width: 860px;
+    background-color: #eaf8ff;
+    text-align: center;
+}
+.top, .middle, .botton {
+    height: 240px;
+    display: flex;
+    margin: 20px;
+}
+.top {
+    background-color: indigo;
+    justify-content: space-between;
+}
+.middle {
+    background-color: cyan;
+    justify-content: space-evenly;
+}
+.botton {
+    background-color: indigo;
+    justify-content: space-between;
+}
